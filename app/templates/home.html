@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+  <h1>Welcome to BooksWorld</h1>
+  <ul>
+    {% for book in books %}
+      <li><a href="{{ url_for('routes.book', book_id=book.id) }}">{{ book.title }}</a> by {{ book.author }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
