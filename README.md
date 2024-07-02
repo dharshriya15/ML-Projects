@@ -1,4 +1,5 @@
 Machine Learning Personal Projects:
 
-#Logistic Regression on Thyroid Data
-#Object Recognition Using YOLO
+1) Logistic Regression on Thyroid Data
+
+2) Object Recognition Using YOLO
